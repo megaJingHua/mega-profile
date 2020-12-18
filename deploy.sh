@@ -9,5 +9,5 @@ git init //因為dist資料夾預設是被ignore的，因此在進入dist資料�
 git add -A
 git commit -m 'deploy'
 # 部署到 https://github.com/chou0728/eric-project.git 分支為 gh-pages
-git push -f https://https://github.com/megaJingHua/vue.git main:gh-pages
+git push -f https://https://github.com/megaJingHua/vue.git master:gh-pages
 cd -
