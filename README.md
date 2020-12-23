@@ -1,4 +1,9 @@
 # vue
+## 套件
+- vue-router
+## CSS
+- element UI
+
 
 ## Project setup
 ```
@@ -15,10 +20,10 @@ yarn serve
 yarn build
 ```
 
-### Lints and fixes files
+### deploy
 ```
-yarn lint
+sh deploy.sh
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### 正式站
+https://mega1109.com/mega-profile/#

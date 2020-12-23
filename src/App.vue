@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <a class="nav-link" href="./#/home">首頁</a>
-    <a class="nav-link" href="./#/page1">page1</a>
+    <Nav />
     <router-view />
   </div>
 </template>
 
 <script>
-
+import Nav from "./components/Nav";
 export default {
-  name: 'App',
-}
+  name: "App",
+  components: {
+    Nav,
+  },
+};
 </script>
 
 <style>
